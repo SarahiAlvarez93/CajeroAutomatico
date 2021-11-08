@@ -1,0 +1,141 @@
+:root {
+  --negro: #111111;
+  --verde: #081c15;
+  --gris: #e5e5e5;
+  --blanco: #ffffff;
+  --verde-claro: rgb(183, 199, 158);
+  --fuente-principal: 'Montserrat', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--fuente-principal);
+  font-size: 1.6rem;
+  margin-top: 10rem;
+  padding-top: 7rem;
+}
+
+p {
+  font-size: 2rem;
+  color: var(--negro);
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.contenedor-login {
+  width: 40%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  margin: auto;
+}
+
+h2 {
+  margin: auto;
+  border: 0px;
+}
+
+h1,
+h3 {
+  margin: 0 0 5rem 0;
+}
+
+h1 {
+  font: 4rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+  padding-bottom: 0%;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+.header {
+  background-color: var(--verde-claro);
+  width: 100%;
+  margin-bottom: 5rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  max-width: 300px;
+}
+
+.verifi {
+  width: 100%;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.nav-links li {
+  color: var(--negro);
+  margin: 0 1.5rem;
+  font-size: 2rem;
+  margin: 0 1.5rem;
+  line-height: 9rem;
+  font-weight: 500;
+}
+
+.inicio-sesion {
+  display: block;
+  background-color: var(--gris);
+  box-shadow: 0 1px 10px 0 #8b8b8b;
+  padding: 2rem;
+}
+.inicio-sesion h1 {
+  text-align: center;
+  font-display: big;
+}
+
+.inicio-sesion h2 {
+  font-size: 2rem;
+  margin: 25px 0;
+  text-align: center;
+}
+
+.img-centered {
+  align-self: center;
+  align: center;
+}
+
+.title {
+  margin: 10px;
+  margin-bottom: 0px;
+  border: #081c15;
+}
+.botonlog {
+  width: 85%;
+  margin: 15px;
+
+  border-radius: 15px;
+
+  padding: 0.5rem;
+}
