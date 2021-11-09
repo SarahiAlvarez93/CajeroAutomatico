@@ -3,7 +3,7 @@
   --verde: #081c15;
   --gris: #e5e5e5;
   --blanco: #ffffff;
-  --verde-claro: rgb(183, 199, 158);
+  --verde-claro: #4e8851;
   --fuente-principal: 'Montserrat', sans-serif;
 }
 
@@ -20,6 +20,7 @@ html {
 
 body {
   font-family: var(--fuente-principal);
+  background-color: #eaeaea;
   font-size: 1.6rem;
   margin-top: 10rem;
   padding-top: 7rem;
@@ -91,6 +92,7 @@ h3 {
 
 .verifi {
   width: 100%;
+  height: 4rem;
   border-radius: 25px;
   text-align: center;
 }
@@ -117,7 +119,7 @@ h3 {
 
 .inicio-sesion h2 {
   font-size: 2rem;
-  margin: 25px 0;
+  margin: 25px 0 25px 0;
   text-align: center;
 }
 
@@ -131,11 +133,24 @@ h3 {
   margin-bottom: 0px;
   border: #081c15;
 }
+
 .botonlog {
-  width: 85%;
-  margin: 15px;
-
+  text-align: center;
+  margin-top: 2rem;
   border-radius: 15px;
+  padding: 1rem;
+}
 
-  padding: 0.5rem;
+#submit {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 8px;
+  margin: 0 10px 20px 0;
+  border: 1px solid #ccc;
+  background: var(--verde-claro);
+  border-radius: 25px;
+}
+
+#submit:hover {
+  background: var(---negro);
 }

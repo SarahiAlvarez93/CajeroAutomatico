@@ -28,26 +28,22 @@
                 <div class="tittle">
                     <h1>Inicio de sesión</h1> 
                 </div>
-                <form id="login" action="" method="">
+            <form id="login" action="" method="">
                 <div >
-                    <h2>Selecciona tu usuario</h2>
-                   
-                        
+                    <h2>Selecciona tu usuario</h2>                   
                         <select class="verifi" id="usuario" name="usuario">
                           <option value="Mali">Mali</option>
                           <option value="Gera">Gera</option>
                           <option value="Maui">Maui</option>
                         </select>
-                        
-                      
                 </div>
-
                 <div>
                     <label for="contraseña"> <h2>Ingresa tu Contraseña</h2></label>
                     <input class="verifi" type="password" name="contraseña" id="contraseña">
                 </div>
-                <div >
-                    <button onclick="getInfo()" type="submit" class="botonlog" >Ingresar</button>
+                <div class="botonlog">
+                    <input id="submit" onclick="getInfo()" type="submit" value="Iniciar Sesión">
+                   <!--<button onclick="getInfo()" type="submit" >Ingresar</button>--> 
                 </div>
             </form>
         </main>
